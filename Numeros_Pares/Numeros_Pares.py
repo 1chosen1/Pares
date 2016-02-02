@@ -5,6 +5,7 @@ while n <= 5000:
     if n%2 == 0:
         if n==100 or n==1000:
             pass
-        p += n
+        else:
+            p += n
     n += 1
 print ("La suma de los numeros pares entre 10 y 5000 omitiendo los numeros 100 y 1000 es de: %i"% p)
